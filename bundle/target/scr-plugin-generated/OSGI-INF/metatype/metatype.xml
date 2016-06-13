@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="com.mycompany.myproject.servlets.DamPath" name="%com.mycompany.myproject.servlets.DamPath.name" description="%com.mycompany.myproject.servlets.DamPath.description">
+        <AD id="sling.servlet.paths" type="String" default="/bin/hello" name="%sling.servlet.paths.name" description="%sling.servlet.paths.description"/>
+        <AD id="sling.servlet.methods" type="String" default="GET" name="%sling.servlet.methods.name" description="%sling.servlet.methods.description"/>
+    </OCD>
+    <OCD id="com.mycompany.myproject.servlets.Weather" name="%com.mycompany.myproject.servlets.Weather.name" description="%com.mycompany.myproject.servlets.Weather.description">
+        <AD id="sling.servlet.paths" type="String" default="/bin/hi" name="%sling.servlet.paths.name" description="%sling.servlet.paths.description"/>
+        <AD id="sling.servlet.methods" type="String" default="GET" name="%sling.servlet.methods.name" description="%sling.servlet.methods.description"/>
+    </OCD>
+    <Designate pid="com.mycompany.myproject.servlets.DamPath">
+        <Object ocdref="com.mycompany.myproject.servlets.DamPath"/>
+    </Designate>
+    <Designate pid="com.mycompany.myproject.servlets.Weather">
+        <Object ocdref="com.mycompany.myproject.servlets.Weather"/>
+    </Designate>
+</metatype:MetaData>

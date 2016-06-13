@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Training Project Package</comment>
+<entry key="createdBy">karthik</entry>
+<entry key="name">myproject-content</entry>
+<entry key="created">2016-06-13T13:54:40.962-0400</entry>
+<entry key="groupId">my-group-id</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">Training site</entry>
+<entry key="description">Maven Multimodule project for Training Project.</entry>
+<entry key="artifactId">myproject-content</entry>
+<entry key="path">/etc/packages/Training site/myproject-content.zip</entry>
+</properties>
